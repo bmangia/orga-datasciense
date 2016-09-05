@@ -1,0 +1,5 @@
+.Rhistory
+
+data/
+src/__pycache__/*
+src/tests/__pycache__/*
