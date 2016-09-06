@@ -1,0 +1,45 @@
+1- Clasificar el problema. Que tipo de problema tenemos? Regresion o clasificacion? Por que?
+
+2- Tenemos los datos. 
+
+2.1 Hay que depurarlos.
+	- Ver formatos de fechas, numericos, caracteres invalidos en strings, conversion de tipos, identificacion de valores nulos o faltantes.
+	- Bien formados: cada fila una observacion y cada columna un atributo
+
+2.2 Detectar y eliminar anomalias
+	- Absoluta: persona con edad de 765 años
+	- Relativa: distancia de 7000 km cuando todas las demas estan entre 50 y 80 km
+	- Dependen del contexto y no suele haber algoritmos
+
+2.3 Valores faltantes para ciertos atributos
+	- Tener en cuenta que algunos algoritmos admiten valores faltantes y otros no
+	- Sino, completar valores faltantes con imputacion: 
+		-completar con el valor promedio para atributos numericos y con el valor mas popular para categoricos
+		-completar para atributos numericos con un algoritmo de regresion y los categoricos con algoritmo de clasificacion
+
+3- Explorar datos (no se procesan)
+	
+3.1 Analizar la estructura
+	- Cuantos datos tenemos en total
+	- Cuantos atributos cada observacion
+	- Nombre y tipo de dato de cada observacion
+	- Ver cuantos valores faltantes existes y en que proporcion se presentan para cada atributo
+
+3.2 Navegar datos
+
+3.3 Resumen estadistico. Para cada atributo:
+	- Valor max y min
+	- Promedio y media
+	- Cantidad de valores faltantes y proporcion
+	- Quantiles
+	- Desviacion standard
+
+3.4 Visualizar datos (fundamental)
+	-ploteos atributo contra otro o atributo solo a lo largo de todo el set
+
+4- Aplicar a los datos el algoritmo necesario
+
+5- Comunicar resultados
+	-ŕeportes o visualizaciones
+	-graficos
+	
