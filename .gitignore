@@ -3,3 +3,6 @@
 data/
 src/python/__pycache__/*
 src/python/tests/__pycache__/*
+
+src/notebooks/.ipynb_checkpoints/
+src/notebooks/data/
