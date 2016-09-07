@@ -1,29 +1,15 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Repositorio creado para ir subiendo los diferentes algoritmos que vayamos programando y para la documentacion que vayamos recolectando a medida que avanzamos con el tp
 
-### What is this repository for? ###
+### Estructura de directorios ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+.
++-- _data
++-- _docs
++-- _src
+|   +-- python
 
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+En data guardaremos los archivos train.csv y test.csv en nuestro local.
+En docs todo lo referente a diseño, informe, graficos, etc.
+En src vamos ir colocando codigo que nos ayude a resolver el TP. Supuse clasificarlo por lenguajes por si tenemos que utilizar varios.
