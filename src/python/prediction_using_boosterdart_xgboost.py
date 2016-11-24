@@ -3,6 +3,7 @@ import csv
 from scipy.sparse import csr_matrix
 
 POSITION_ID = 0
+POSITION_PRODUCT_ID = 1
 POSITION_HELPFULNESS_NUMERATOR = 4
 POSITION_HELPFULNESS_DENOMINATOR = 5
 POSITION_PREDICTION = 6
@@ -57,7 +58,7 @@ param = {'booster': 'dart',
          'rate_drop': 0.1,
          'skip_drop': 0.5
          }
-num_round = 50
+num_round = 500
 
 print ("Comienzo a generar el modelo...")
 bst = xgb.train(param, dtrain, num_round)
